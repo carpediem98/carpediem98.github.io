@@ -1,0 +1,26 @@
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!gatsby-browser.js
+!gatsby-node.js
+!gatsby-config.js
+!gatsby-ssr.js
+!index.html
+!LICENSE
+!package-lock.json
+!package.json
+!*/src
+!*/public
+!*/node_modules
+!*/.cache
+!*/static
+# etc...
+
+# ...even if they are in subdirectories
+!*/
+
+# if the files to be tracked are in subdirectories
+!*/a/b/file1.txt
+!*/a/b/c/*
